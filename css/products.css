@@ -1,0 +1,8 @@
+
+.product{
+  margin: auto;
+}
+
+.product:nth-child(odd){
+  margin-top: 50px;
+}

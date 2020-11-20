@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pineApple</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <h1 class="site-title"><a href="./index.html">pineApple</a></h1>
+      <div class="nav-wrapper">
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#service">Service</a></li>
+            <li class="nav-item"><a href="#products">Products</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <button class="burger-btn">
+        <span class="bars">
+          <span class="bar bar_top"></span>
+          <span class="bar bar_mid"></span>
+          <span class="bar bar_bottom"></span>
+        </span>
+      </button>
+    </header>
+    <!-- //header -->
+
+    <!-- main -->
+    <main>
+      <!-- fv -->
+      <div class="fv">
+        <p class="main-copy">pineApple</p>
+      </div>
+      <!-- //fv -->
+
+      <!-- about -->
+      <section class="section-wrapper" id="about">
+        <h2 class="section-title">About</h2>
+        <h3 class="about-title">高級感あふれる<br>洗練されたデザイン。</h3>
+        <p class="text_about">「洗練されたデザインは生活を豊かにする。」「高級感あふれるデバイスはいつも何かに飢えている心を満たしてくれる。」憂鬱な通勤や退屈な休日を高級感あふれるデザインを取り入れることで何気ない日常の風景を一変させます。私たちはデバイスを通して、日常を非日常な体験にしていきます。
+        </p>
+      </section>
+      <!-- //about -->
+
+      <!--service -->
+      <section class="section-wrapper" id="service">
+        <h2 class="section-title">Service</h2>
+        <div class="content-inner">
+          <div class="text-wrapper_service">
+            <h3 class="service-title">卓越したデザインで<br>スタイリッシュな生活を</h3>
+            <p class="section-text_service">
+            統一感のあるシンプルなデザインにより、生活に高級感をもたらします。洗練されたデザインの機器は、場所を問わずどこで使ってもあなたにふさわしい商品となるでしょう。
+            </p>
+          </div>
+          <div class="img-wrapper_service element js-animation">
+            <img src="./images/service-image@2x.jpg" alt="黒い布の上に置かれた黒い一眼レフカメラ">
+          </div>
+        </div>
+        <div class="content-inner reverse">
+          <div class="text-wrapper_service">
+            <h3 class="service-title">洗練されたデザインは、<br>何をしても洗練される</h3>
+            <p class="section-text_service">
+            洗練されたデザインももろければ意味がない。PineAppleはその頑丈さでデザインを買った時のままで守ります。見かけ倒しではないパワフルさをあなたの手に。
+            </p>
+          </div>
+          <div class="img-wrapper_service element js-animation">
+            <img src="./images/service-image02@2x.jpg" alt="黒い布の上に置かれた黒いアイフォン">
+          </div>
+        </div>
+      </section>
+      <!-- //service -->
+
+      <!-- News -->
+      <section class="section-wrapper" id="products">
+        <div class="section-inner">
+          <h2 class="section-title">Products</h2>
+          <ul class="card-list">
+            <li class="card-item  element js-animation">
+              <a href="./products/index.html">
+                <div class="card-img">
+                  <img src="./images/card-image1@2x.jpg" alt="黒い背景にあるPC">
+                </div>
+                <p class="text_news">高級感あふれるデザインを身に着ければ、憂鬱な通勤や何気ないティータイムもドラマのワンシーンに。</p>
+              </a>
+            </li>
+            <li class="card-item  element js-animation">
+              <a href="./products/index.html">
+                <div class="card-img">
+                  <img src="./images/card-image2@2x.jpg" alt="黒い背景にあるPC">
+                </div>
+                <p class="text_news">通天閣からうっかり落としても大丈夫。高さ100mの耐久試験にも耐え抜いた頑丈さをそのポケットに。</p>
+              </a>
+            </li>
+            <li class="card-item  element js-animation">
+              <a href="./products/index.html">
+                <div class="card-img">
+                  <img src="./images/card-image3@2x.jpg" alt="黒い背景にあるPC">
+                </div>
+                <p class="text_news">動画編集もプログラミングもこれ一台。パワフルなスペックと直感的な操作で全ての仕事を任せよう。</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- //News -->
+
+      <!-- Contact -->
+      <section class="section-wrapper" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <form action="" class="form">
+          <div class="form-part">
+            <label for="input-name">担当者名</label>
+            <input type="text" id="input-subject">
+          </div>
+          <div class="form-part">
+            <label for="input-tel">電話番号</label>
+            <input type="text" id="input-subject">
+          </div>
+          <div class="form-part">
+            <label for="input-mail">メールアドレス</label>
+            <input type="text" id="input-subject">
+          </div>
+          <div class="form-part">
+            <label for="detail">お問い合わせ内容</label>
+            <textarea name="" type="text" id="detail" cols="30" rows="10"></textarea>
+          </div>
+          <div class="form-send">
+            <input type="submit" value="送信" class="form-btn">
+          </div>
+        </form>
+      </section>
+      <!-- //Contact -->
+
+    </main>
+    <!-- //main -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <small>©︎crest.design all rights reserved</small>
+    </footer>
+    <!-- //footer -->
+
+    <script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
