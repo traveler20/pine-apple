@@ -25,6 +25,7 @@ a{
   text-decoration: none;
   color:#fff;
 }
+
 .section-title{
   font-size: 3.6rem;
   font-weight: bold;
@@ -47,7 +48,7 @@ h3{
 /* header */
 /* ------------------ */
 .header{
-  background-color: #1B1310;
+  background-color: #231815;
   color: #fff;
   position: fixed;
   height:74px;
@@ -71,6 +72,11 @@ h3{
 }
 .burger-btn{
   display: none;
+}
+
+.site-title img{
+  height: 74px;
+  width: auto;
 }
 
 /* ------------------ */
